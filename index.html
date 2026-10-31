@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site de assuntos variados</title>
+    <style>
+        /* Estilos do site (todos juntos no mesmo arquivo) */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f4f8;
+            color: #222222;
+            line-height: 1.6;
+        }
+
+        #cabecalho {
+            background-color: #182848;
+            color: #ffffff;
+            padding: 24px 16px;
+            text-align: center;
+        }
+
+        #cabecalho h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        #cabecalho p {
+            margin: 6px 0 0;
+        }
+
+        #menu {
+            background-color: #243b64;
+            padding: 12px 16px;
+            text-align: center;
+        }
+
+        #menu a {
+            display: inline-block;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 8px 12px;
+            margin: 3px;
+            border-radius: 6px;
+        }
+
+        #menu a:hover,
+        #menu a.ativo {
+            background-color: #f0a500;
+            color: #182848;
+        }
+
+        #conteudo {
+            max-width: 950px;
+            min-height: 360px;
+            margin: 24px auto;
+            padding: 28px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+        }
+
+        #conteudo h2 {
+            color: #182848;
+            border-bottom: 2px solid #f0a500;
+            padding-bottom: 8px;
+        }
+
+        .pagina {
+            display: none;
+        }
+
+        .pagina.ativa {
+            display: block;
+        }
+
+        .destaque {
+            background-color: #eef3fb;
+            border-left: 5px solid #f0a500;
+            padding: 14px 18px;
+            margin: 20px 0;
+        }
+
+        #rodape {
+            background-color: #182848;
+            color: #ffffff;
+            text-align: center;
+            padding: 16px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            #cabecalho h1 {
+                font-size: 1.5rem;
+            }
+
+            #menu a {
+                display: block;
+                margin: 5px auto;
+            }
+
+            #conteudo {
+                margin: 14px;
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <h1>Meu site de assuntos variados</h1>
+        <p>Conheça seis temas diferentes</p>
+    </div>
+
+    <div id="menu">
+        <a href="#sonic">Sonic</a>
+        <a href="#mario">Mario</a>
+        <a href="#bolsonaro">Bolsonaro</a>
+        <a href="#lula">Lula</a>
+        <a href="#max-steel">Max Steel</a>
+        <a href="#vasco">Vasco</a>
+    </div>
+
+    <div id="conteudo">
+
+        <!-- SONIC -->
+        <div class="pagina" id="sonic">
+            <h2>Sonic the Hedgehog</h2>
+            <p><strong>O ouriço azul dos videogames.</strong></p>
+
+            <h3>Conhecendo o tema</h3>
+            <p>Sonic é um personagem de videogame conhecido por sua velocidade e por sua personalidade corajosa. Ele foi criado pela Sega e se tornou um dos mascotes mais conhecidos da história dos jogos.</p>
+
+            <h3>História e características</h3>
+            <p>Nas aventuras, Sonic costuma enfrentar o vilão Dr. Eggman, que cria máquinas e planos para dominar o mundo. Seus amigos, como Tails e Knuckles, também participam de várias histórias.</p>
+
+            <h3>Presença e importância</h3>
+            <p>Os jogos da série são marcados por fases cheias de obstáculos, caminhos alternativos e muita velocidade. Ao longo dos anos, Sonic também apareceu em desenhos, quadrinhos e filmes.</p>
+
+            <div class="destaque">
+                <strong>Resumo:</strong> Sonic representa a importância da velocidade, da amizade e da coragem em suas aventuras.
+            </div>
+        </div>
+
+        <!-- MARIO -->
+        <div class="pagina" id="mario">
+            <h2>Super Mario</h2>
+            <p><strong>Um dos personagens mais famosos dos videogames.</strong></p>
+
+            <h3>Conhecendo o tema</h3>
+            <p>Mario é um personagem da Nintendo que ficou famoso por suas aventuras em jogos de plataforma. Ele é conhecido pelo macacão, pelo boné vermelho e pelo bigode.</p>
+
+            <h3>História e características</h3>
+            <p>Em muitas histórias, Mario precisa atravessar mundos diferentes para enfrentar desafios e salvar a Princesa Peach. Seu irmão Luigi e outros personagens aparecem como aliados e companheiros.</p>
+
+            <h3>Presença e importância</h3>
+            <p>A série Super Mario apresenta fases com plataformas, moedas, poderes especiais e inimigos variados. Os jogos ajudaram a popularizar os videogames em todo o mundo.</p>
+
+            <div class="destaque">
+                <strong>Resumo:</strong> Mario é lembrado por sua simplicidade, criatividade e capacidade de se adaptar a diferentes tipos de jogos.
+            </div>
+        </div>
+
+        <!-- BOLSONARO -->
+        <div class="pagina" id="bolsonaro">
+            <h2>Jair Messias Bolsonaro</h2>
+            <p><strong>Perfil biográfico e trajetória pública.</strong></p>
+
+            <h3>Conhecendo o tema</h3>
+            <p>Jair Messias Bolsonaro é um político brasileiro, nascido em 1955. Antes de seguir carreira política, foi militar do Exército Brasileiro.</p>
+
+            <h3>História e características</h3>
+            <p>Bolsonaro iniciou sua trajetória política como vereador no Rio de Janeiro e depois exerceu mandatos como deputado federal. Em 2018, foi eleito presidente da República, cargo que ocupou de 2019 a 2022.</p>
+
+            <h3>Presença e importância</h3>
+            <p>Seu governo e suas posições políticas geraram apoio e críticas em diferentes setores da sociedade. Seu nome permanece presente no debate público brasileiro.</p>
+
+            <div class="destaque">
+                <strong>Resumo:</strong> Esta página apresenta informações biográficas e históricas, sem defender partido ou posição política.
+            </div>
+        </div>
+
+        <!-- LULA -->
+        <div class="pagina" id="lula">
+            <h2>Luiz Inácio Lula da Silva</h2>
+            <p><strong>Perfil biográfico e trajetória pública.</strong></p>
+
+            <h3>Conhecendo o tema</h3>
+            <p>Luiz Inácio Lula da Silva, conhecido como Lula, nasceu em 1945, em Pernambuco. Trabalhou como metalúrgico e ganhou destaque como liderança sindical no ABC Paulista.</p>
+
+            <h3>História e características</h3>
+            <p>Lula participou da fundação do Partido dos Trabalhadores (PT) e foi eleito presidente do Brasil em 2002. Exerceu dois mandatos, de 2003 a 2010, e voltou à Presidência em 2023.</p>
+
+            <h3>Presença e importância</h3>
+            <p>Sua trajetória política inclui debates sobre programas sociais, economia, relações internacionais e diferentes controvérsias públicas.</p>
+
+            <div class="destaque">
+                <strong>Resumo:</strong> Esta página apresenta informações biográficas e históricas, sem defender partido ou posição política.
+            </div>
+        </div>
+
+        <!-- MAX STEEL -->
+        <div class="pagina" id="max-steel">
+            <h2>Max Steel</h2>
+            <p><strong>Herói de ação, tecnologia e aventura.</strong></p>
+
+            <h3>Conhecendo o tema</h3>
+            <p>Max Steel é um personagem fictício conhecido por suas histórias de ação e ficção científica. O personagem combina habilidades físicas com recursos tecnológicos avançados.</p>
+
+            <h3>História e características</h3>
+            <p>Em suas aventuras, Max conta com a ajuda de Steel, um parceiro tecnológico que permite acessar diferentes formas de energia e capacidades especiais.</p>
+
+            <h3>Presença e importância</h3>
+            <p>A franquia ganhou versões em brinquedos, séries animadas e filmes. As histórias costumam envolver missões, vilões e desafios que exigem coragem e trabalho em equipe.</p>
+
+            <div class="destaque">
+                <strong>Resumo:</strong> Max Steel mistura aventura e tecnologia em um universo voltado para a ação.
+            </div>
+        </div>
+
+        <!-- VASCO -->
+        <div class="pagina" id="vasco">
+            <h2>Vasco da Gama</h2>
+            <p><strong>Tradição e história do futebol brasileiro.</strong></p>
+
+            <h3>Conhecendo o tema</h3>
+            <p>O Club de Regatas Vasco da Gama é uma associação esportiva brasileira fundada em 1898, no Rio de Janeiro. O clube começou ligado ao remo e posteriormente ganhou destaque também no futebol.</p>
+
+            <h3>História e características</h3>
+            <p>O Vasco tem uma história importante no esporte brasileiro. Um dos marcos mais lembrados é sua luta histórica contra a discriminação no futebol, simbolizada pela chamada Resposta Histórica, em 1924.</p>
+
+            <h3>Presença e importância</h3>
+            <p>No futebol, o clube conquistou títulos nacionais e internacionais e é conhecido por sua torcida, pelo estádio São Januário e pela camisa com a faixa diagonal.</p>
+
+            <div class="destaque">
+                <strong>Resumo:</strong> A história do Vasco reúne esporte, identidade, tradição e participação social.
+            </div>
+        </div>
+
+    </div>
+
+    <div id="rodape">
+        <p>Projeto de HTML e CSS | Desenvolvido para fins de estudo</p>
+    </div>
+
+    <script>
+        // Mostra só a página escolhida no menu (padrão: Sonic)
+        function mostrarPagina() {
+            var id = location.hash.replace('#', '') || 'sonic';
+            var paginas = document.querySelectorAll('.pagina');
+            var links = document.querySelectorAll('#menu a');
+            var achou = false;
+
+            paginas.forEach(function (p) {
+                var ativa = p.id === id;
+                p.classList.toggle('ativa', ativa);
+                if (ativa) achou = true;
+            });
+
+            if (!achou) {
+                document.getElementById('sonic').classList.add('ativa');
+                id = 'sonic';
+            }
+
+            links.forEach(function (a) {
+                a.classList.toggle('ativo', a.getAttribute('href') === '#' + id);
+            });
+        }
+
+        window.addEventListener('hashchange', mostrarPagina);
+        mostrarPagina();
+    </script>
+</body>
+</html>
